@@ -1,0 +1,153 @@
+/* Use flex-Box*/
+
+
+
+/* ----- Classes ---- */
+
+
+
+
+/* Home Logo */
+.upper__left {
+    background-color: rgb(140, 161, 107);
+}
+
+
+
+/* Banner */
+
+.logo_mini {
+
+    border-radius: 4px;
+    /* box-shadow: -10px 3px rgb(218, 67, 67); offset-x | offset-y | color */
+    /* filter: blur(2px); */
+
+    /*Center the JS Logo*/
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    box-shadow: -1px 1px silver;
+
+
+
+}
+
+.mini_banner {
+    display: inline-block;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+.nav__upper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blue;
+
+}
+
+.nav__lower {
+    background-color: rgb(76, 211, 110);
+    text-align: center;
+    word-spacing: 100px;
+}
+
+.sign-in {
+    display: inline-block;
+    text-align: right;
+    box-sizing: border-box;
+    width: 90%;
+    color: green;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+.get-started {
+    display: inline-block;
+    text-align: right;
+    margin-left: 10px;
+    border: green solid 1px;
+    padding: 5px;
+    text-decoration: none;
+    color: green;
+}
+
+
+/* JS Logo */
+.logo {
+    margin: auto;
+    border-radius: 4px;
+    box-shadow: -10px 3px rgb(218, 67, 67); /* offset-x | offset-y | color */
+    /* filter: blur(2px); */
+
+    /*Center the JS Logo*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.logo_container {
+    background-color: #2b2d2f;
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+    border-radius: 2px;
+    color: white;
+    text-align: center;
+}
+
+/* ---- Type Selectors ---- */
+
+h1 {
+    text-align: center;
+}
+
+stat {
+    font: italic small-caps bold 16px/2 cursive;
+    font-size: 20px;
+    font-style: oblique;
+    text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 1em rgb(77, 77, 82), 0 0 0.2em rgb(124, 124, 124);
+
+}
+
+.head_board {
+    display: inline-flex;
+    border: dotted black;
+    /* background-color: #CF513D; */
+      background-color: #026AA7;
+  font-size: 16px;
+  line-height: 20px;
+  color: white;
+   font-weight: 700;
+  padding-left: 4px;
+
+
+
+}
+
+#search {
+    background-color: #CF513D;
+}
+
+
+/*
+---> Nav bar to show where you're at
+.crumb a::after {
+    display: inline-block;
+    color: #000;
+    content: '>';
+    font-size: 80%;
+    font-weight: bold;
+    padding: 0 3px;
+
+
+HTML
+    <nav class="crumbs">
+    <ol>
+        <li class="crumb"><a href="#">Bikes</a></li>
+        <li class="crumb"><a href="#">BMX</a></li>
+        <li class="crumb">Jump Bike 3000</li>
+    </ol>
+</nav>
+}*/
